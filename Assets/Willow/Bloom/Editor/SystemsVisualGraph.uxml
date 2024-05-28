@@ -1,0 +1,12 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" xsi="http://www.w3.org/2001/XMLSchema-instance" engine="UnityEngine.UIElements" editor="UnityEditor.UIElements" noNamespaceSchemaLocation="../../../../UIElementsSchema/UIElements.xsd" editor-extension-mode="True">
+    <Style src="project://database/Assets/Willow/Bloom/Editor/SystemsVisualGraph.uss?fileID=7433441132597879392&amp;guid=7c83345dad436174d9a4df6feea75a67&amp;type=3#SystemsVisualGraph" />
+    <uie:Toolbar name="Toolbar">
+        <uie:ToolbarButton text="Fit All" parse-escape-sequences="true" display-tooltip-when-elided="true" name="FitAll" />
+    </uie:Toolbar>
+    <ui:GroupBox name="Split" style="flex-grow: 1; margin-left: 0; margin-right: 0; margin-top: 0; margin-bottom: 0; padding-left: 0; padding-right: 0; padding-top: 0; padding-bottom: 0; flex-direction: row; flex-wrap: wrap; align-items: stretch; width: auto; height: auto; justify-content: flex-start;">
+        <ui:GroupBox name="InspectorGroup" style="flex-grow: 1; min-width: 250px; margin-left: 0; margin-right: 0; margin-top: 0; margin-bottom: 0; padding-left: 0; padding-right: 0; padding-top: 0; padding-bottom: 0; flex-shrink: 0; flex-wrap: wrap; justify-content: flex-start; min-height: 50%; width: 250px;">
+            <ui:IMGUIContainer name="OdinInsert" style="flex-shrink: 0; flex-grow: 1;" />
+        </ui:GroupBox>
+        <Willow.Bloom.SystemsVisualGraphView focusable="true" style="flex-grow: 4; min-width: 300px; flex-shrink: 0; min-height: 50%;" />
+    </ui:GroupBox>
+</ui:UXML>
